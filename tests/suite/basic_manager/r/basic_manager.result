@@ -45,7 +45,7 @@ ADD ADMIN USER HOSTS $ips	example: "add admin user host ip1[,ip2,...]",  ...
 REMOVE ADMIN USER HOSTS $ips	example: "remove admin user host ip1[,ip2...]",  ...
 ALTER ADMIN USER $pwd	example: "alter admin user user:raw_password",  ...
 SAVE CONFIG	save the backends to config file
-SELECT VERSION	display the version of dbproxy
+SELECT VERSION	display the version of Atlas
 SHOW proxy STATUS	list the status or variables
 SHOW processlist	list the connections and their status
 SHOW events waits STATUS	list the statistics of the wait event
@@ -78,7 +78,7 @@ SET blacklist-file = $file_path	online set blacklist file
 SET backend-max-thread-running = $int	online set backend's max thread running number
 SET thread-running-sleep-delay = $int	online set backend's max thread running sleep timeout
 SET shutdown-timeout = $int	online set the waiting seconds of idle connections during shutdown process
-SHUTDOWN [NORMAL] | IMMEDIATE	online shutdown the dbproxy Server, NORMAL: wait for the current transaction complete before shutdown-timeout expired, IMMEDIATE: shutdown immediately
+SHUTDOWN [NORMAL] | IMMEDIATE	online shutdown the Atlas Server, NORMAL: wait for the current transaction complete before shutdown-timeout expired, IMMEDIATE: shutdown immediately
 KILL [CONNECTION] $id	online kill the client connection, the $id can be found in command show processlist.
 SHOW percentile [$int m|h]	display the response time, m:minute h:hour
 SET percentile-switch = on|off	online set percentile
