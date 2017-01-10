@@ -16,9 +16,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -61,9 +61,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -108,9 +108,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_dp	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_dp	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -155,9 +155,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -200,9 +200,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -247,9 +247,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -294,9 +294,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -339,9 +339,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -386,9 +386,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -435,9 +435,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_dp	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	1	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_dp	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -482,9 +482,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -539,9 +539,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -626,9 +626,9 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -675,16 +675,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 alter slave weight 2 0;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 remove user backends slave_tag1;
 status
 remove slave tag tag_mt;
@@ -701,16 +701,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 alter slave weight 2048 2;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 remove user backends slave_tag1;
 status
 remove slave tag tag_mt;
@@ -727,16 +727,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 alter slave weight 1 2;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 remove user backends slave_tag1;
 status
 remove slave tag tag_mt;
@@ -753,16 +753,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 alter slave weight 2 4;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -815,16 +815,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 alter slave weight 2 4;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -871,16 +871,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 add slave tag tag_mt -1024;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 remove user backends slave_tag1;
 status
 remove slave tag tag_mt;
@@ -897,16 +897,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 add slave tag tag_mt 2;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -937,16 +937,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 add slave tag tag_mt 2;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 /*slave@tag_mt*/select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -987,16 +987,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 add slave tag tag_mt 1;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 remove user backends slave_tag1;
 status
 remove slave tag tag_mt;
@@ -1015,16 +1015,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 add slave tag tag_mt 2,3;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 /*slave@tag_mt*/select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1061,16 +1061,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_dp	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_dp	0
 add slave tag tag_mt 2;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_dp	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_dp	0
 /*slave@tag_mt*/select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1119,16 +1119,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 add slave tag tag_dp 2;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 /*slave@tag_mt*/select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1167,16 +1167,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 remove slave tag tag_mt;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_dp	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1207,16 +1207,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 remove slave tag tag_mt;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1255,16 +1255,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 remove slave tag tag_mt 2,3;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1295,16 +1295,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 remove slave tag tag_mt 2,3;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	NULL	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1347,16 +1347,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 remove slave tag tag_mt 2;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	NULL	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1399,16 +1399,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 add user backends slave_tag1@tag_mt|tag_mt;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1451,16 +1451,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 add user backends slave_tag1@tag_dp;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1515,16 +1515,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 remove user backends slave_tag1@tag_dp;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1567,16 +1567,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 remove user backends slave_tag1@tag_mt;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
@@ -1619,16 +1619,16 @@ dbproxy_test	8XjhBQKd			admin
 dbproxy_test	8XjhBQKd			proxy
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 remove user backends slave_tag1;
 status
 select * from backends;
 backend_ndx	address	hostname	state	type	weight	tag	threads_running
-1	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
-2	10.32.45.150:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
-3	10.32.45.149:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
+1	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	rw	0	NULL	0
+2	10.32.45.149:5002	dbproxy-functest01.dx.meituandianping.com	up	ro	4	tag_mt	0
+3	10.32.45.147:5002	dbproxy-functest02.dx.meituandianping.com	up	ro	1	tag_mt	0
 select count(*) from test.slave_tag_test;
 count(*)
 0
